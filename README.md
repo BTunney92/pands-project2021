@@ -9,9 +9,7 @@ Fisher's Iris data set is a multivariate data set introduced by the British stat
 The data set consists of 150 records, broken down into five traits as below;
  
   (i) Species of Iris (50 Samples each)   
-     - Iris setosa
-     - Iris virginica   
-     - Iris versicolor                 
+     - Iris setosa, Iris virginica & Iris versicolor                 
 
   (ii)  Sepal width in cm
 
