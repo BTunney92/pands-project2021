@@ -1,6 +1,6 @@
 # Programming and Scripting Project 2021
 
-# The purpose of this project is to research the data set and and write code in Python to  investigate  it.
+# The purpose of this project is to research Fisher's Iris data set and and write code in Python to  investigate  it.
 
 # Background
 
