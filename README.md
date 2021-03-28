@@ -21,7 +21,19 @@ The data set consists of 150 records, broken down into five traits as below;
 
 The dataset is often used in data mining, classification and clustering examples and to test algorithms.
 
-# 2) Investigation
+# 2) Libraries Used
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import seaborn as sns
+
+Matplotlib is a low level graph plotting library in python that serves as a visualisation utility.
+Pandas is used to analyse data
+NumPy is a Python library used for working with arrays
+Seaborn is a Python data visualisation library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+# 3) Investigation
 
     (i) Summary
        To carry out the initial analysis of the dataset, I used the 'Describe' function and then saved this to a text file - Summary.txt
@@ -39,3 +51,5 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html
 
 https://www.geeksforgeeks.org/python-pandas-dataframe-describe-method/
+
+https://www.w3schools.com
