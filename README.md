@@ -21,6 +21,11 @@ The data set consists of 150 records, broken down into five traits as below;
 
 The dataset is often used in data mining, classification and clustering examples and to test algorithms.
 
+# 2) Investigation
+
+    (i) Summary
+       To carry out the initial analysis of the dataset, I used the 'Describe' function and then saved this to a text file - Summary.txt
+       The describe() method is used for calculating some statistical data like percentile, mean and std of the numerical values of the Series or DataFrame
 
 # References
 
@@ -32,3 +37,5 @@ Author: Venkata Sai Reddy Avuluri
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html
+
+https://www.geeksforgeeks.org/python-pandas-dataframe-describe-method/
