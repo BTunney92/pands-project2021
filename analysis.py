@@ -18,4 +18,6 @@ Summary = iris_data.describe()
 with open("Summary.txt", "w",) as f:
      f.write(str(Summary))  #Summary must be converted to STR as dataframe will fail
 
+f.close()  # Closing file
+
 
