@@ -22,4 +22,7 @@ with open("Summary.txt", "w",) as f:
 
 f.close()  # Closing file
 
+# Using Open to read in the txt file created above. Encoding added as system default is different to text file method.
 
+with open ("Summary.txt", "rt", encoding="utf-8") as f:  
+    data = f.read()

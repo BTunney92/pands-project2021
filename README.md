@@ -53,3 +53,8 @@ http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html
 https://www.geeksforgeeks.org/python-pandas-dataframe-describe-method/
 
 https://www.w3schools.com
+
+https://www.w3schools.com/python/python_file_open.asp
+
+https://www.pitt.edu/~naraehan/python3/mbb12.html
+
