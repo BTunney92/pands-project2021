@@ -20,9 +20,16 @@ Summary = iris_data.describe()
 with open("Summary.txt", "w",) as f:
      f.write(str(Summary))  #Summary must be converted to STR as dataframe will fail
 
-f.close()  # Closing file
+#f.close()  # Closing file
 
 # Using Open to read in the txt file created above. Encoding added as system default is different to text file method.
 
-with open ("Summary.txt", "rt", encoding="utf-8") as f:  
-    data = f.read()
+with open ("Summary.txt", "rt", encoding="utf-8") as f:
+     plt.figure(figsize = (10, 7))
+     x = data.SepalWidth
+     plt.hist(x, bins = 20, color = "green")
+     plt.title("Sepal Width in cm")
+     plt.xlabel("Sepal_Width_cm")
+     plt.ylabel("Count")
+  
+     plt.show()
