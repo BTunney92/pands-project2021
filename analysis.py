@@ -20,16 +20,16 @@ Summary = iris_data.describe()
 with open("Summary.txt", "w",) as f:
      f.write(str(Summary))  #Summary must be converted to STR as dataframe will fail
 
-#f.close()  # Closing file
+f.close()  # Closing file
 
-# Using Open to read in the txt file created above. Encoding added as system default is different to text file method.
+iris_data = pd.read_csv('irisdata.csv')
 
-with open ("Summary.txt", "rt", encoding="utf-8") as f:
-     plt.figure(figsize = (10, 7))
-     x = data.SepalWidth
-     plt.hist(x, bins = 20, color = "green")
-     plt.title("Sepal Width in cm")
-     plt.xlabel("Sepal_Width_cm")
-     plt.ylabel("Count")
-  
-     plt.show()
+# Sepal Length using seaborn Histogram
+
+title ="Sepal Length"
+
+sns.displot(x="sepal_length", data=iris_data, hue = "species", multiple = "dodge") # Adding "species" value to hue creats a unique histogram for each species.
+                                                                             #Dodge added to make bars clearer.
+#plt.show()	# Show the plot (removed to allow PNG to save)
+
+plt.savefig ("Sepal Length.PNG")
