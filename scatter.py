@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 
+#Sepal traits using seaborn scatterplot
+
 iris_data = pd.read_csv('irisdata.csv')
 
 sns.set(style="darkgrid")
@@ -16,3 +18,5 @@ plt.legend(bbox_to_anchor=(1.11, 1), borderaxespad=0) # Used to move the legend 
 plt.show() # Removed to save
 
 plt.savefig ("Sepal Scatter.PNG")
+
+# Petal traits using seaborn scatterplot
