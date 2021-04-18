@@ -26,9 +26,9 @@ iris_data = pd.read_csv('irisdata.csv')
 
 # Sepal Length using seaborn Histogram
 
-title ="Sepal Length in com" # Setting graph title
+plt.title("Sepal Length in com") # Setting graph title
 
-sns.displot(x="sepal_length", data=iris_data, hue = "species", multiple = "dodge") # Adding "species" value to hue creats a unique histogram for each species.
+sns.displot(x="sepal_length", data=iris_data, hue = "species", multiple = "dodge") # Adding "species" value to hue creates a unique histogram colour for each species.
                                                                              #Dodge added to make bars clearer.
 #plt.show()	# Show the plot (removed to allow PNG to save)
 
@@ -42,6 +42,8 @@ sns.set(style="darkgrid") # Adds background colour
 
 sns.displot(x="sepal_width", data=iris_data, hue = "species", multiple = "dodge",)
 
+#plt.show() #Remove comment to show
+
 plt.savefig ("Sepal Width Hist.PNG")
 
 # Petal Length using seaborn Histogram
@@ -52,14 +54,24 @@ sns.set(style="darkgrid") # Adds background colour
 
 sns.displot(x="petal_length", data=iris_data, hue = "species", multiple = "dodge", binwidth = 2) # binwidth added to adjust width of bars
 
+#plt.show() #Remove comment to show
+
 plt.savefig ("Petal Length Hist.PNG")
 
 # Petal Width using seaborn Histogram
 
 title ="Petal Width in cm"
 
-sns.set(style="darkgrid") # Adds background colour
+sns.set(style="darkgrid") 
 
 sns.displot(x="petal_width", data=iris_data, hue = "species", multiple = "dodge", binwidth = 2) # binwidth added to adjust width of bars
 
+#plt.show() #Remove comment to show
+
 plt.savefig ("Petal Width Hist.PNG")
+
+#Scatter Plots
+
+#Sepal traits using seaborn scatterplot
+
+

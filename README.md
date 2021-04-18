@@ -59,3 +59,5 @@ https://www.w3schools.com/python/python_file_open.asp
 https://www.pitt.edu/~naraehan/python3/mbb12.html
 
 https://seaborn.pydata.org/tutorial/distributions.html
+
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
