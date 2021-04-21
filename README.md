@@ -38,13 +38,20 @@ Seaborn is a Python data visualisation library based on matplotlib. It provides 
     (i) Summary
        To carry out the initial analysis of the dataset, I used the 'Describe' function and then saved this to a text file - Summary.txt
        The describe() method is used for calculating some statistical data like percentile, mean and std of the numerical values of the Series or DataFrame
+   
+    (ii) Data Visualisation
+        To dislay the dataset variables, I plotted four histograms showing the Sepal Length, Sepal Width, Petal Length & Petal Width -  separated by species.
+
+        To represent the relationship between the sepal and petal variables, I plotted two scatter plots - separated by species.
+
+
+     
 
 # References
 
 http://archive.ics.uci.edu/ml/datasets/Iris
 
 https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
-Author: Venkata Sai Reddy Avuluri
 
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
@@ -61,3 +68,5 @@ https://www.pitt.edu/~naraehan/python3/mbb12.html
 https://seaborn.pydata.org/tutorial/distributions.html
 
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
+
+https://datavizpyr.com/how-to-place-legend-outside-the-plot-with-seaborn-in-python/
