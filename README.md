@@ -49,24 +49,34 @@ Seaborn is a Python data visualisation library based on matplotlib. It provides 
 
 # References
 
-http://archive.ics.uci.edu/ml/datasets/Iris
+Title: Iris Dataset
+URL: http://archive.ics.uci.edu/ml/datasets/Iris
 
-https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
+Title: Exploratory Data Analysis of IRIS Data Set Using Python
+Author: Venkata Sai Reddy Avuluri
+URL: https://medium.com/@avulurivenkatasaireddyexploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
 
-https://en.wikipedia.org/wiki/Iris_flower_data_set
+Title: Iris flower data set
+URL: https://en.wikipedia.org/wiki/Iris_flower_data_set
 
-http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html
+Title: Data Science Example - Iris dataset
+URL: http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html
 
-https://www.geeksforgeeks.org/python-pandas-dataframe-describe-method/
+Title: Python | Pandas Dataframe.describe() method
+Author: Kartikay Bhutani
+URL: https://www.geeksforgeeks.org/python-pandas-dataframe-describe-method/
 
-https://www.w3schools.com
+Title:  Python File Open
+URL: https://www.w3schools.com/python/python_file_open.asp
 
-https://www.w3schools.com/python/python_file_open.asp
+Title: Tutorial 12: Reading Text
+URL: https://www.pitt.edu/~naraehan/python3/mbb12.html
 
-https://www.pitt.edu/~naraehan/python3/mbb12.html
+Title: Visualizing distributions of data
+URL: https://seaborn.pydata.org/tutorial/distributions.html
 
-https://seaborn.pydata.org/tutorial/distributions.html
+Title: Python For Data ScienceCheat Sheet
+URL:https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
 
-https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
-
-https://datavizpyr.com/how-to-place-legend-outside-the-plot-with-seaborn-in-python/
+Title: How To Place Legend Outside the Plot with Seaborn in Python?
+URL:https://datavizpyr.com/how-to-place-legend-outside-the-plot-with-seaborn-in-python/
