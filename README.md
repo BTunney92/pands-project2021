@@ -23,7 +23,7 @@ The dataset is often used in data mining, classification and clustering examples
 
 # Iris Flowers
 
-(C:\Users\brend\Desktop\GMIT\Programming and Scripting\Programming\pands-project2021\Flowers.PNG)
+[plot](C:\Users\brend\Desktop\GMIT\Programming and Scripting\Programming\pands-project2021\Flowers.PNG)
 
 
 # 2) Libraries Used
