@@ -21,6 +21,10 @@ The data set consists of 150 records, broken down into five traits as below;
 
 The dataset is often used in data mining, classification and clustering examples and to test algorithms.
 
+# Iris Flowers
+
+![alt text](C:\Users\brend\Desktop\GMIT\Programming and Scripting\Programming\pands-project2021\Flowers.PNG)
+
 # 2) Libraries Used
 
 import matplotlib.pyplot as plt
