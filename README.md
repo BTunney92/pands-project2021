@@ -92,3 +92,6 @@ URL:https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Chea
 
 Title: How To Place Legend Outside the Plot with Seaborn in Python?
 URL:https://datavizpyr.com/how-to-place-legend-outside-the-plot-with-seaborn-in-python/
+
+Title: How-to-add-screenshot-to-readmes-in-github-repository
+URL:https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository
