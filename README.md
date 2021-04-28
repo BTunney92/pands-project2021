@@ -3,7 +3,7 @@
 
 # The purpose of this project is to research Fisher's Iris data set and and write code in Python to  investigate  it.
 
-# 1) Background
+## 1) Background
 
 Fisher's Iris data set is a multivariate data set introduced by the British statistician, eugenicist, and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.
 
@@ -22,7 +22,7 @@ The data set consists of 150 records, broken down into five traits as below;
 
 The dataset is often used in data mining, classification and clustering examples and to test algorithms.
 
-# 2) Libraries Used
+## 2) Libraries Used
 
 matplotlib.pyplot as plt
 
@@ -40,11 +40,11 @@ NumPy is a Python library used for working with arrays.
 
 Seaborn is a Python data visualisation library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
-# Flowers
+## Flowers
 
 !(https://postimg.cc/B8d6wQqc)
 
-# 3) Investigation
+## 3) Investigation
 
     (i) Summary
        To carry out the initial analysis of the dataset, I used the 'Describe' function and then saved this to a text file - Summary.txt
@@ -57,10 +57,14 @@ Seaborn is a Python data visualisation library based on matplotlib. It provides 
 
         I used the pairplot function to display all variables along with the relationship between pairs of variables. An advantage of this is it allows you to more easily identify trends in the data as the output is on one figure.
 
+## Running program
 
+To run the program;
+
+Ensure IrisData.csv is downloaded and type "python analysis.py" in the command line.
      
 
-# References
+## References
 
 Title: Iris Dataset
 URL: http://archive.ics.uci.edu/ml/datasets/Iris
