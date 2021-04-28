@@ -41,7 +41,7 @@ Seaborn is a Python data visualisation library based on matplotlib. It provides 
 
 # Flowers
 
-![Alt text](pands-project2021\flowers.jpg?raw=true "Species")
+[flowers.png](https://postimg.cc/B8d6wQqc)
 
 # 3) Investigation
 
