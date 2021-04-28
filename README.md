@@ -39,6 +39,9 @@ NumPy is a Python library used for working with arrays.
 
 Seaborn is a Python data visualisation library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
+# Flowers
+
+![Screenshot](flowers.PNG)
 
 # 3) Investigation
 
@@ -50,6 +53,8 @@ Seaborn is a Python data visualisation library based on matplotlib. It provides 
         To dislay the dataset variables, I plotted four histograms showing the Sepal Length, Sepal Width, Petal Length & Petal Width -  separated by species.
 
         To represent the relationship between the sepal and petal variables, I plotted two scatter plots - separated by species.
+
+        I used the pairplot function to display all variables along with the relationship between pairs of variables. An advantage of this is it allows you to more easily identify trends in the data as the output is on one figure.
 
 
      
