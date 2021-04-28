@@ -1,4 +1,5 @@
 # Programming and Scripting Project 2021
+## Author: Brendan Tunney
 
 # The purpose of this project is to research Fisher's Iris data set and and write code in Python to  investigate  it.
 
