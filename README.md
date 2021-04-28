@@ -21,22 +21,22 @@ The data set consists of 150 records, broken down into five traits as below;
 
 The dataset is often used in data mining, classification and clustering examples and to test algorithms.
 
-# Iris Flowers
-
-!(C:\Users\brend\Desktop\GMIT\ProgrammingandScripting\Programming\pands-project2021\Flowers.PNG)
-
-<img src="pands-project2021\Flowers.PNG"/>
-
 # 2) Libraries Used
 
 import matplotlib.pyplot as plt
+
 import pandas as pd
+
 import numpy as np
+
 import seaborn as sns
 
 Matplotlib is a low level graph plotting library in python that serves as a visualisation utility.
-Pandas is used to analyse data
+
+Pandas is used to analyse data.
+
 NumPy is a Python library used for working with arrays.
+
 Seaborn is a Python data visualisation library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
 # 3) Investigation
