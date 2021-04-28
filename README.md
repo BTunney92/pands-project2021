@@ -25,7 +25,7 @@ The dataset is often used in data mining, classification and clustering examples
 
 !(C:\Users\brend\Desktop\GMIT\ProgrammingandScripting\Programming\pands-project2021\Flowers.PNG)
 
-<img src="pands-project2021\Flowers.PNG" alt="My cool logo"/>
+<img src="pands-project2021\Flowers.PNG"/>
 
 # 2) Libraries Used
 
