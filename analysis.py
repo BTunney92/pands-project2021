@@ -26,12 +26,11 @@ iris_data = pd.read_csv('irisdata.csv')
 
 # Sepal Length using seaborn Histogram
 
-plt.title("Sepal Length in com") # Setting graph title
+plt.title("Sepal Length in cm") # Setting graph title
 
 sns.displot(x="sepal_length", data=iris_data, hue = "species", multiple = "dodge") # Adding "species" value to hue creates a unique histogram colour for each species.
                                                                                    #Dodge added to make bars clearer.
-plt.title("Sepal Length in cm") # Setting graph title    
-
+    
 plt.savefig ("Sepal Length Hist.PNG") # Saving picture
 
 plt.show() # Showing the graph. Must be placed after plt.savefig to allow PNG file to save
@@ -103,5 +102,16 @@ plt.legend(bbox_to_anchor=(1.11, 1), borderaxespad=0)
 plt.savefig ("Petal Scatter.PNG")
 
 plt.show() 
+
+# Pair Plots
+
+sns.set(style="darkgrid")
+
+sns.pairplot(data=iris_data, hue="species")
+
+plt.savefig ("Pair Plot.PNG")
+
+plt.show()
+
 
 
