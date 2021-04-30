@@ -33,7 +33,7 @@ sns.displot(x="sepal_length", data=iris_data, hue = "species", multiple = "dodge
     
 plt.savefig ("Sepal Length Hist.PNG") # Saving picture
 
-#plt.show() # Showing the graph. Must be placed after plt.savefig to allow PNG file to save
+plt.show() # Showing the graph. Must be placed after plt.savefig to allow PNG file to save
 
 # Sepal Width using seaborn Histogram
 
@@ -45,7 +45,7 @@ plt.title("Sepal Width in cm")
 
 plt.savefig ("Sepal Width Hist.PNG")
 
-#plt.show()
+plt.show()
 
 # Petal Length using seaborn Histogram
 
@@ -57,7 +57,7 @@ plt.title("Petal Length in cm")
 
 plt.savefig ("Petal Length Hist.PNG")
 
-#plt.show() 
+plt.show() 
 
 # Petal Width using seaborn Histogram
 
@@ -69,7 +69,7 @@ plt.title("Petal Width in cm")
 
 plt.savefig ("Petal Width Hist.PNG")
 
-#plt.show()
+plt.show()
 
 #Scatter Plots
 
@@ -101,7 +101,7 @@ plt.legend(bbox_to_anchor=(1.11, 1), borderaxespad=0)
 
 plt.savefig ("Petal Scatter.PNG")
 
-#plt.show() 
+plt.show() 
 
 # Pair Plots
 
